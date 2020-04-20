@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind componets;
+@tailwind utilities;
+
+body{
+    @apply bg-indigo-500 text-white;
+}
+.card{
+    @apply bg-indigo-700 shadow-md  rounded my-2;
+}
+
+.btn{
+    @apply rounded-full bg-blue-500 py-4 px-6 text-white shadow-md uppercase font-semibold;
+} 
+
+.flat-btn{
+    @apply  py-4 px-6 text-blue-200  uppercase font-semibold;
+}
